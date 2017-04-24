@@ -2,7 +2,7 @@
 
 This is a collection of Regular Expressions to be used before publishing a document in order to find wrong punctuation. I recommend using them in the order shown here.
 
-> Be careful! Markdown removes trailing spaces in code, so the replace with is sometimes note displayed correctly. I use `·` as a symbol for one space in the replace section.
+> Be careful! Markdown removes trailing spaces in code, so the “replace with” is sometimes not displayed correctly. I use `·` as a symbol for one space in the replace section.
 
 ### No Empty Lines
 Search for `\n{2,}`
