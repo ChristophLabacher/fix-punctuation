@@ -88,9 +88,9 @@ Search for `(\w)['’‚](\s)`
 Replace with `$1‘$2`
 
 #### Find German Double Quotation Marks Within Double Quotation Marks
-Search for `(?:„[^“]*)(„)`
+Search for `(„[^“]*)(„)`
 
-Replace with `‚`
+Replace with `$1‚`
 
 Search for `(“[^„]*)(?:“)`
 
