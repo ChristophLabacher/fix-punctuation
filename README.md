@@ -18,42 +18,42 @@ Search for `[ ]{2,}`
 
 Replace with `·`
 
-### No En-Dash instead of a Hyphen
+### No En-Dash Instead of a Hyphen
 *Within a word there should be a hypen, not an en-dash.*
 
 Search for `([\S])[–]([\S])`
 
 Replace with `$1-$2`
 
-### No Hyphen instead of an En-Dash
+### No Hyphen Instead of an En-Dash
 *In between two words or two show a range, an en-dash is the right choice, not a hyphen.*
 
 Search for `([ ])[-]([ ])`
 
 Replace with `·–·`
 
-### No three periods instead of an ellipses
+### No Three Periods Instead of an Ellipses
 *An ellipses is a single character, not three periods.*
 
 Search for `[.]{3}`
 
 Replace with `…`
 
-### Space after Punctuation
+### Space After Punctuation
 *After punctuation there should be a space.*
 
 Search for `[.,!?](?!\d)\w`
 
 Check those by hand, as URLs may be selected as well.
 
-### No multiple Punctuation
+### No Multiple Punctuation
 *Using multiple punctuation is bad style!!!*
 
 Search for `([.,!?]){2,}`
 
 Replace with `$1`
 
-### No wrong apostrophe
+### No Wrong Apostrophe
 *Replaces a dumb quote within a word with a real apostrophe.*
 
 Search for `([\w])[']`
