@@ -26,7 +26,7 @@ Search for `([\S])[–]([\S])`
 Replace with `$1-$2`
 
 ### No Hyphen Instead of an En-Dash
-*In between two words or two show a range, an en-dash is the right choice, not a hyphen.*
+*In between two words – or to show a range – an en-dash is the right choice, not a hyphen.*
 
 Search for `([ ])[-]([ ])`
 
@@ -82,9 +82,9 @@ Replace with `$1’$2`
 #### Find English Double Quotation Marks Within Double Quotation Marks
 *Experimental: finds double quotes within other double quotes and replaces them with single quotes.*
 
-Search for `(“[^”]*)(“)` or better `(?<=“[^”]*)(“)` (not supported in JavaScript)
+Search for `(?<=“[^”]*)(“)` (not supported in JavaScript)
 
-Replace with `$1‘`
+Replace with `‘`
 
 Search for `(”)(?=[^“]*”)`
 
@@ -112,9 +112,9 @@ Replace with `$1‘$2`
 #### Find German Double Quotation Marks Within Double Quotation Marks
 *Experimental: finds German double quotes within other double quotes and replaces them with German single quotes.*
 
-Search for `(„[^“]*)(„)` or better `(?<=„[^“]*)(„)` (not supported in JavaScript)
+Search for `(?<=„[^“]*)(„)` (not supported in JavaScript)
 
-Replace with `$1‚`
+Replace with `‚`
 
 Search for `(“)(?=[^„]*“)`
 
