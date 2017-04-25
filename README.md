@@ -11,6 +11,12 @@ Search for `\n{2,}`
 
 Replace with `\n`
 
+#### In InDesign
+
+Search for `\r{2,}`
+
+Replace with `\r`
+
 ### No Double Spaces
 *Sometimes one accidentally types two spaces instead of one.*
 
@@ -51,7 +57,7 @@ Check those by hand, as URLs may be selected as well.
 ### No Multiple Punctuation
 *Using multiple punctuation is bad style!!!*
 
-Search for `([.,;…-–—!?]){2,}`
+Search for `([.,;…!?]){2,}`
 
 Replace with `$1`
 
