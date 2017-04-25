@@ -51,7 +51,7 @@ Check those by hand, as URLs may be selected as well.
 ### No Multiple Punctuation
 *Using multiple punctuation is bad style!!!*
 
-Search for `([.,!?]){2,}`
+Search for `([.,;…-–—!?]){2,}`
 
 Replace with `$1`
 
@@ -107,7 +107,7 @@ Search for `(\s)['‘’](\w)`
 
 Replace with `$1‚$2`
 
-Search for `(\w)['’‚](\s)`
+Search for `(\w)['’‚](\s)` — check to make sure it’s not an apostrophe at the end of a word!
 
 Replace with `$1‘$2`
 
