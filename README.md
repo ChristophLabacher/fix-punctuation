@@ -25,6 +25,8 @@ Search for `([\S])[–]([\S])`
 
 Replace with `$1-$2`
 
+Check to make sure it’s not a range where you forgot the spaces before and after the en-dash.
+
 ### No Hyphen Instead of an En-Dash
 *In between two words – or to show a range – an en-dash is the right choice, not a hyphen.*
 
@@ -42,7 +44,7 @@ Replace with `…`
 ### Space After Punctuation
 *After punctuation there should be a space.*
 
-Search for `[.,!?](?!\d)\w`
+Search for `[.,;:…!?](?!\d)\w`
 
 Check those by hand, as URLs may be selected as well.
 
