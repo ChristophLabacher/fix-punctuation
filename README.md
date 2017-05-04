@@ -36,7 +36,7 @@ Check to make sure it’s not a range where you forgot the spaces before and aft
 ### No Hyphen Instead of a Dash
 *To set off parenthetical statements – or to show a range – a dash is the right choice, not a hyphen.*
 
-Search for `([ ])[-]([ ])`
+Search for `([ ])[-–—]([ ])`
 
 Replace with `·–·` (if you want an en-dash)
 
