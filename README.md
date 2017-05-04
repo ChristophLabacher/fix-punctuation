@@ -33,12 +33,14 @@ Replace with `$1-$2`
 
 Check to make sure it’s not a range where you forgot the spaces before and after the en-dash.
 
-### No Hyphen Instead of an En-Dash
-*In between two words – or to show a range – an en-dash is the right choice, not a hyphen.*
+### No Hyphen Instead of a Dash
+*To set off parenthetical statements – or to show a range – a dash is the right choice, not a hyphen.*
 
 Search for `([ ])[-]([ ])`
 
-Replace with `·–·`
+Replace with `·–·` (if you want an en-dash)
+
+Replace with `—` (if you want an em-dash)
 
 ### No Three Periods Instead of an Ellipses
 *An ellipses is a single character, not three periods.*
