@@ -25,9 +25,9 @@ Search for `[ ]{2,}`
 Replace with `·`
 
 ### No En-Dash Instead of a Hyphen
-*Within a word there should be a hypen, not an en-dash.*
+*Within a word there should be a hypen, not a dash.*
 
-Search for `([\S])[–]([\S])`
+Search for `([\S])[–—]([\S])`
 
 Replace with `$1-$2`
 
@@ -52,7 +52,11 @@ Replace with `…`
 ### Space After Punctuation
 *After punctuation there should be a space.*
 
-Search for `[.,;:…!?](?!\d)\w`
+Search for `[,;:…!?](?!\d)\w`
+
+Replace with `$1·`
+
+Search for `[.]\w`
 
 Check those by hand, as URLs may be selected as well.
 
@@ -66,7 +70,7 @@ Replace with `$1`
 ### No Wrong Apostrophe
 *Replaces a dumb quote within a word with a real apostrophe.*
 
-Search for `([\w])[']`
+Search for `([\w])['‘]`
 
 Replace with `$1’`
 
